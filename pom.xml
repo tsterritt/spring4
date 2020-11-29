@@ -9,6 +9,9 @@
     <version>1.0</version>
     <modules>
         <module>spring-properties</module>
+        <module>spring-profiles-custom</module>
+        <module>spring-profiles-custom</module>
+        <module>spring4-java-config-options</module>
     </modules>
     <packaging>pom</packaging>
     <name>Projects for Learning and Demonstrating Spring</name>

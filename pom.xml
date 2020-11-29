@@ -8,7 +8,7 @@
     <artifactId>spring4</artifactId>
     <version>1.0</version>
     <modules>
-        <module>spring-properties</module>
+        <module>spring4-properties</module>
         <module>spring4-profiles</module>
         <module>spring4-java-config</module>
     </modules>

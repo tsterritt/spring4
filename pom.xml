@@ -11,6 +11,7 @@
         <module>spring4-properties</module>
         <module>spring4-profiles</module>
         <module>spring4-java-config</module>
+        <module>spring4-design-patterns</module>
     </modules>
     <packaging>pom</packaging>
     <name>Projects for Learning and Demonstrating Spring</name>

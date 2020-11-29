@@ -7,8 +7,6 @@ Implementation of GOF Abstract Factory Pattern [GOF - page 88]. Key Point - the 
 
 In the example, Trucks have an additional method than Cars, which means Cars and Trucks *vary by interface*. To adhere to the pattern, distinct Factory/Product interfaces were implemented for Cars and Trucks. 
 
-Trying to encapsulate the common methods of Cars and Truck (e.g. a Vehicle factory/interface assembly) would be an option; however, the client code would require casting down when needing to access the additional method on the Truck class and would violate the goal of the pattern to reveal the interface and not the implementations of the Product classes. 
-
 ## References
 
 [GOF] Design Patterns, Elements of Reusable Object-Oriented Software. Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides

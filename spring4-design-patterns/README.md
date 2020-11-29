@@ -1,7 +1,13 @@
+## References
+
+[GOF] Design Patterns, Elements of Reusable Object-Oriented Software. Erich Gamme, Richard Helm, Ralph Johnson, John Vlissides
+
+[SO] https://stackoverflow.com/questions/3578648/type-casting-and-the-factory-pattern, particularly Matt Greer's comment. 
+
 ## Creational 
 ### Abstract Factory
 
-Implementation of GOF Abstract Factory pattern. Key Point - the classes in the pattern can *vary by implementation, but not by interface*. This means different patterns are implemented when there is variation in the interface of the Product classes.
+Implementation of GOF Abstract Factory Pattern [GOF]. Key Point - the classes in the pattern can *vary by implementation, but not by interface* [SO]. This means different patterns are implemented when there is variation in the interface of the Product classes.
 
 In the example, Trucks have an additional method than Cars, which means Cars and Trucks *vary by interface*. To adhere to the pattern, distinct Factory/Product interfaces were implemented for Cars and Trucks. 
 

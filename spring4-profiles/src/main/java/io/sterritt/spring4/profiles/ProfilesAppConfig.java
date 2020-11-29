@@ -1,4 +1,4 @@
-package io.sterritt.spring4.profiles.custom;
+package io.sterritt.spring4.profiles;
 
 import org.springframework.context.annotation.*;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;

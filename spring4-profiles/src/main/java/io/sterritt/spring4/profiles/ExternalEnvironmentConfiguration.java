@@ -1,4 +1,4 @@
-package io.sterritt.spring4.profiles.custom;
+package io.sterritt.spring4.profiles;
 
 public interface ExternalEnvironmentConfiguration {
 

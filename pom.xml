@@ -10,7 +10,7 @@
     <modules>
         <module>spring-properties</module>
         <module>spring4-profiles</module>
-        <module>spring4-java-config-options</module>
+        <module>spring4-java-config</module>
     </modules>
     <packaging>pom</packaging>
     <name>Projects for Learning and Demonstrating Spring</name>

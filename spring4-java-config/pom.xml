@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring4-autowire-config</artifactId>
+    <artifactId>spring4-java-config</artifactId>
 
     <dependencies>
         <dependency>

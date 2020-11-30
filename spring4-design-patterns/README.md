@@ -9,9 +9,10 @@ In the example, Trucks have an additional method than Cars, which means Cars and
 
 ### Builder
 
-Implementation of the GOF Builder Pattern [GOF - page 97]. Similar to abtract factory in that it creates complex object structures. In the Builder pattern, the object creation logic requires complicated step by step logic that would be too complex to have in client classes. For example, lots of different constructors or setter calls required before being able to use an object. 
+Implementation of the GOF Builder Pattern [GOF - page 97]. Similar to abtract factory in that it creates complex object structures. In the Builder pattern, the object creation logic requires complicated step by step logic that would be too complex to have in client classes and would also require changing whenever the building logic changes or was extended. 
 
-The pattern also doesn't require the use of Abstract Product classes or interfaces. It's assumed that the interfaces ar too complicated to be able to find a common interface between product classes.
+The goal of the pattern is to use the same construction process (e.g. method call on builder interface) to create different representations - so the same step by step logic applies to different types of builders (in the pattern, the example is different buliders for converting RTF text to other formats).
+
 
 ## References
 

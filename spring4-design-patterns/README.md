@@ -9,10 +9,9 @@ In the example, Trucks have an additional method than Cars, which means Cars and
 
 ### Builder
 
-Implementation of the GOF Builder Pattern [GOF - page 97]. Similar to abtract factory in that it creates complex object structures. The key differences between builder and Abstract Factory:
+Implementation of the GOF Builder Pattern [GOF - page 97]. Similar to abtract factory in that it creates complex object structures. In the Builder pattern, the object creation logic requires complicated step by step logic that would be too complex to have in client classes. For example, lots of different constructors or setter calls required before being able to use an object. 
 
- - object creation is step by step, and construction and getting the result are separated
- - there may be variation in the the step by step construction requirements for each scenario, which means Abstract Product classes would be difficult. The complexity is hidden behind a contruct method; the implementation hides all of the construction variety instead of forcing the Client to call constuctors or getter/setters in a specific order. 
+The pattern also doesn't require the use of Abstract Product classes or interfaces. It's assumed that the interfaces ar too complicated to be able to find a common interface between product classes.
 
 ## References
 

@@ -9,10 +9,10 @@ public class ProfilesAppConfig {
 
     /**
      * Enable using @value annotation in beans
-     */
+
     @Bean
     public static PropertySourcesPlaceholderConfigurer configurePropertySourcesPlaceholderConfigurer() {
         PropertySourcesPlaceholderConfigurer pc = new PropertySourcesPlaceholderConfigurer();
         return pc;
-    }
+    }*/
 }

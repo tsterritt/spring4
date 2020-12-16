@@ -18,8 +18,15 @@ public class SpelPropertiesBean {
     @Value("#{systemProperties['user.home']}")
     private String systemProperty;
 
-    @Value("#{environment.SHELL}")
+    //Set in the test case using TestProperty annotation
+    @Value("#{environment.SETINTEST}")
+    private String testProperty;
+
+    @Value("#{environment.SHELL ?: 'default'}")
     private String environmentProperty;
+
+    @Value("#{environment.NOTFOUND ?: 'default'}")
+    private String defaultEnvironmentProperty;
 
     @Value("#{'${array.property}'}")
     private String[] stringArrayProperty;
@@ -52,5 +59,13 @@ public class SpelPropertiesBean {
 
     public List getListProperty() {
         return listProperty;
+    }
+
+    public String getDefaultEnvironmentProperty() {
+        return defaultEnvironmentProperty;
+    }
+
+    public String getTestProperty() {
+        return testProperty;
     }
 }

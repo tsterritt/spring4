@@ -12,6 +12,8 @@
         <module>spring4-profiles</module>
         <module>spring4-java-config</module>
         <module>spring4-design-patterns</module>
+        <module>json-files</module>
+        <module>spring4-validation</module>
     </modules>
     <packaging>pom</packaging>
     <name>Projects for Learning and Demonstrating Spring</name>
